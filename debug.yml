@@ -1,0 +1,8 @@
+- name: test awx projects
+  hosts: all
+  vars:
+    your_name: "Kai"
+  tasks:
+    - name: Output
+      debug:
+        msg: "Hello {{ your_name }}"
